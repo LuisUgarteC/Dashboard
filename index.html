@@ -47,23 +47,23 @@
         <div class="head">
             <div class="col-div-6">
                 <span class="nav"
-                style="font-size: 30px; cursor:pointer; color: red;">
+                    style="font-size: 30px; cursor:pointer; color: red;">
                 &#9776;Dashboard
                 </span>
                 <span class="nav2"
-                style="font-size: 30px; cursor:pointer; color: red;">
+                    style="font-size: 30px; cursor:pointer; color: red;">
                 &#9776;Dashboard
                 </span>
             </div>
+            <div class="col-div-6">
+                <div class="profile">
+                    <img src="./images/admin.png" class="pro-img">
+                    <p>Dab <span>UI/UX Designer</span></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
         </div>
-    </div>
-    <div class="col-div-6">
-        <div class="profile">
-            <img src="./images/admin.png" class="pro-img">
-            <p>Dab <span>UI/UX Designer</span></p>
-        </div>
-    </div>
-    <div class="clearfix"></div>
+        <div class="clearfix"></div>
     <br>
     <div class="col-div-3">
         <div class="box">
@@ -104,6 +104,7 @@
     <div class="clearfix"></div>
     <br><br>
     <div class="col-div-8">
+        <div class="box-8">
         <div class="content-box">
             <p>Top Selling Projects <span>Sell All</span></p>
             <br>
@@ -140,6 +141,7 @@
                 </tr>
             </table>
         </div>
+        </div>
     </div>
     <div class="col-div-4">
         <div class="box-4">
@@ -159,5 +161,13 @@
     </div>
     <div class="clearfix"></div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+   
+    <script>
+        $(".nav").click( () => {
+            console.log('diste click')
+        })
+    </script>
 </body>
 </html>
